@@ -116,7 +116,7 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <Header nombreJeux={DATA.length} />
+      <Header nombreJeux={games.length} />
 
       <View style={{ height: '10%' }}>
         <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Sélectionnez un catégorie :</Text>
